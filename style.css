@@ -1,0 +1,198 @@
+/* ---------------------------------------------------
+   RESET & BASE
+--------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    padding: 20px;
+    color: #333;
+}
+
+/* ---------------------------------------------------
+   TITRES
+--------------------------------------------------- */
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    color: #1a3d6d;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #1a3d6d;
+    margin-bottom: 15px;
+}
+
+/* ---------------------------------------------------
+   FORMULAIRES
+--------------------------------------------------- */
+form {
+    background: white;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+}
+
+/* Labels normaux */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Label spécial pour radio (empêche le décalage moche) */
+.radio-group {
+    margin-top: 15px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.radio-option label {
+    display: inline;
+    margin: 0;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #ff9900;
+    box-shadow: 0px 0px 6px rgba(255,153,0,0.5);
+    outline: none;
+}
+
+/* ---------------------------------------------------
+   BOUTONS
+--------------------------------------------------- */
+input[type="submit"],
+button,
+.button {
+    background: #ff9900;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #111;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.button:hover {
+    background: #f08804;
+}
+
+/* ---------------------------------------------------
+   MENU À GAUCHE
+--------------------------------------------------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    background: #232f3e;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+td:hover {
+    background: #37475a;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+/* ---------------------------------------------------
+   PAGES SIMPLE
+--------------------------------------------------- */
+.page-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ---------------------------------------------------
+   LOGO MENU
+--------------------------------------------------- */
+.menu-logo {
+    text-align: center;
+    padding: 20px 0;
+    background: #232f3e;
+}
+
+.menu-logo img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ff9900;
+}
+
+/* ---------------------------------------------------
+   LOGO PAGE
+--------------------------------------------------- */
+.page-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-logo img {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ff9900;
+}
+
+
+
+
+
+
+
+
+
