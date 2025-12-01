@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-logo">
+    <img src="lion.jpg" alt="Logo Auto École">
+</div>
+
+<h1>Bienvenue sur la page d'ajout d'un thème</h1>
+
+<form action="ajout_theme.php" method="POST">
+
+    <label for="nom">Nom du thème :</label>
+    <input type="text" name="nom" required>
+
+    <label for="descriptif">Descriptif :</label>
+    <textarea name="descriptif" rows="5" cols="33"></textarea>
+
+    <input type="submit" value="Valider">
+</form>
+
+</body>
+</html>
