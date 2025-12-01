@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<h1>    Bienvenue sur la page d'inscription d'un élève</h1>
+<div class="page-logo">
+    <img src="lion.jpg" alt="Logo Auto École">
+</div>
+
+
+ <form action="ajouter_eleve.php" method="POST">
+        
+      <label>Civilité :</label>
+
+<div class="radio-group">
+
+    <div class="radio-option">
+        
+        <label for="homme">Homme:</label>
+        <input type="radio" id="homme" name="civilite" value="homme" required>
+    </div>
+
+    <div class="radio-option">
+        
+        <label for="femme">Femme:</label>
+        <input type="radio" id="femme" name="civilite" value="femme">
+    </div>
+
+</div>
+
+    <label for="date de naissance">  Date de naissance : </label> 
+     <input type="DATE" name="date_naissance" required>
+     
+     <br/><br/>
+
+        <label for= "nom"> nom de l'élève: </label>
+       <input type="text" name="nom" required>
+
+        <br/> <br/>
+
+        <label for= "prenom">prenom de l'élève: </label>
+        <input type="text" name="prenom" required>
+
+        <br/> <br/>
+
+        <label for="adresse">adresse de l'élève</label>
+        <input type="text" name="adresse" required>
+
+        <br/> <br/>
+
+        <input type="submit" value="valider" />
+
+          
+            <br/> <br/>
+
